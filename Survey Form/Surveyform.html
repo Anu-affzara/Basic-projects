@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            Survey Form
+            </title>
+            <link rel="stylesheet" href="surveystyle.css"></link>
+    </head>
+    <body>
+        <center>
+            <form>
+                <h1>Survey Form</h1><hr>
+                <div class="Name">
+                    <label>
+                        NAME:
+                    </label>
+                    <input type="text" placeholder="Enter Your Name"/>
+                </div>
+                <div class="Email">
+                    <label>
+                        EMAIL:
+                    </label>
+                    <input type="password" placeholder="Enter Your Email"/>
+                </div>
+                <div class="Age">
+                    <label>
+                        AGE:
+                    </label>
+                    <input type="number" placeholder="Enter Your Age"/>
+                </div>
+                <div class="Category">
+                    <label>
+                        Which Option Best describe You?
+                    </label>
+                    <select>
+                        <option>Employee</option>
+                        <option>Professsional</option>
+                        <option>Researcher</option>
+                        <option>Student</option>
+                        <option>Intern</option>
+                        <option>Faculty</option>
+                    </select>
+                </div>
+                <div class="Recommand">
+                    <label>
+                        Would you recommand our page to your friends?
+                    </label><br>
+                    <input type="radio">Yes
+                    <input type="radio">No
+                    <input type="radio">Maybe
+                </div>
+                <div class="Skill">
+                    <label>
+                        Languages and Frameworks You know!
+                    </label><br>
+                    <input type="checkbox">Python
+                    <input type="checkbox">C#
+                    <input type="checkbox">C++
+                    <input type="checkbox">HTML
+                    <input type="checkbox">Javascript
+                    <input type="checkbox">Django
+                    <input type="checkbox">React
+                    <input type="checkbox">Angular
+                    <input type="checkbox">Java
+                </div>
+                <div class="Comment">
+                    <label>
+                        Any Comments or Suggestions
+                    </label>
+                    <input type="text" placeholder="Write Something...">
+                </div><br>
+                <button onclick="submit">Submit</button>
+            </form>
+        </center>
+    </body>
+</html>
